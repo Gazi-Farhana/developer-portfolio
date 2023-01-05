@@ -105,3 +105,24 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
+
+/*table*/
+table{
+   margin: 0 auto;
+}
+
+.tr{
+    
+}
+
+th{
+    font-weight:normal;
+}
+
+td{
+    font-weight: bold;
+}
+
+.tr{
+    padding: 2px 10px;
+}
