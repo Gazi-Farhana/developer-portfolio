@@ -107,8 +107,11 @@ main {
 }
 
 /*table*/
+/*failed to add extra space between columns. should i have used table columns instead rows?*/
 table{
    margin: 0 auto;
+   border-spacing: 15px;
+   /* margin: 0 50px; */
 }
 
 .tr{
@@ -125,4 +128,8 @@ td{
 
 .tr{
     padding: 2px 10px;
+}
+
+.tr{
+    padding: 0 15px;
 }
