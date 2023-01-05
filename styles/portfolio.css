@@ -108,28 +108,72 @@ main {
 
 /*table*/
 /*failed to add extra space between columns. should i have used table columns instead rows?*/
-table{
-   margin: 0 auto;
-   border-spacing: 15px;
-   /* margin: 0 50px; */
+table {
+    margin: 0 auto;
+    border-spacing: 50px 5px;
+    /* margin: 0 50px; */
 }
 
-.tr{
-    
+/*solved: may be due to using colgroup. need to know more on this!*/
+.tr {}
+
+th {
+    font-weight: normal;
 }
 
-th{
-    font-weight:normal;
-}
-
-td{
+td {
     font-weight: bold;
 }
 
-.tr{
+.tr {
     padding: 2px 10px;
 }
 
-.tr{
+.tr {
     padding: 0 15px;
+}
+
+/*section2-what i do*/
+
+.w-i-do {
+    margin-top: 130px;
+}
+
+.section-title2 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.section-2 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #757575;
+
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.skill-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
 }
