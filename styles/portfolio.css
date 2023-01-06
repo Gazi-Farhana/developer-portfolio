@@ -238,3 +238,57 @@ color: #757575;
     text-align: center;
     margin-top: 30px;
 }
+
+
+.div-button{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+/*contact style*/
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(248, 234, 216);
+    padding: 60px;
+}
+
+.contact-title{
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.submit-button{
+    color: #FFF8F3;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    background-color: orange;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 35px; 
+   
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border:0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+input{
+    height: 50px;
+}
+
+.contact-para{
+    margin-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+   margin-left: 5px;
+}
