@@ -15,7 +15,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 90px;
+    padding: 50px 90px;
 }
 
 /*button-1*/
