@@ -12,6 +12,11 @@
     background-position: bottom right, left;
 }
 
+#img {
+    width:700px;
+    height:800px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
